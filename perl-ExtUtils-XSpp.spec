@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    A tiny C++ class example that holds a string and an int
 License:    GPL+ or Artistic
@@ -15,7 +15,10 @@ BuildRequires: perl(Test::Base)
 BuildRequires: perl(Test::Differences)
 BuildRequires: perl(Module::Build)
 BuildRequires: perl-devel
+
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
+
+Provides: perl(ExtUtils::XSpp::Lexer)
 
 %description
 Anything that does not look like a XS++ directive or a class declaration is
