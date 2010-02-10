@@ -11,13 +11,14 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/ExtUtils/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires: perl(Module::Build)
 BuildRequires: perl(Test::Base)
 BuildRequires: perl(Test::Differences)
-BuildRequires: perl(Module::Build)
 BuildRequires: perl-devel
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
+Requires: perl(ExtUtils::ParseXS) >= 2.220.0
 Provides: perl(ExtUtils::XSpp::Lexer)
 
 %description
