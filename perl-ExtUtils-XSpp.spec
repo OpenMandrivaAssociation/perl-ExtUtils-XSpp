@@ -1,5 +1,5 @@
 %define upstream_name    ExtUtils-XSpp
-%define upstream_version 0.12
+%define upstream_version 0.14
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
