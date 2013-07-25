@@ -1,2 +1,4 @@
+removed_sources:
+  ExtUtils-XSpp-0.1602.tar.gz: fc2fd4f46eece8736e89f6ef1f6fdfb440ecca65
 sources:
-  "ExtUtils-XSpp-0.1602.tar.gz": fc2fd4f46eece8736e89f6ef1f6fdfb440ecca65
+  ExtUtils-XSpp-0.1700.tar.gz: 0c10ff90834fefd8ce46ed52153207bb8d74f06c
