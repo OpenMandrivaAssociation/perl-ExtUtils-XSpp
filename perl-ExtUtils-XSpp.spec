@@ -1,5 +1,7 @@
 %define upstream_name    ExtUtils-XSpp
-%define upstream_version 0.1602
+%define upstream_version 0.1700
+
+%define debug_package %{nil}
 
 %define debug_package %{nil}
 
@@ -11,7 +13,7 @@ Summary:	A tiny C++ class example that holds a string and an int
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/ExtUtils/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/ExtUtils/ExtUtils-XSpp-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Digest::MD5) >= 2.0.0
@@ -46,4 +48,5 @@ perl Build.PL installdirs=vendor
 %{_mandir}/man1/*
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
