@@ -1,5 +1,5 @@
 %define upstream_name    ExtUtils-XSpp
-%define upstream_version 0.1700
+%define upstream_version 0.18
 
 %define debug_package %{nil}
 
@@ -7,7 +7,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Release:	1
 
 Summary:	A tiny C++ class example that holds a string and an int
 License:	GPL+ or Artistic
