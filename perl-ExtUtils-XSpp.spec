@@ -12,7 +12,7 @@ Release:	3
 Summary:	A tiny C++ class example that holds a string and an int
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/ExtUtils/ExtUtils-XSpp-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
