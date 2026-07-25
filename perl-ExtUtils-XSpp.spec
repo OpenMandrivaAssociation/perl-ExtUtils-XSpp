@@ -1,19 +1,19 @@
 %define upstream_name    ExtUtils-XSpp
-%define upstream_version 0.18
+%define upstream_version 0.19
 
 %define debug_package %{nil}
 
 %define debug_package %{nil}
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	A tiny C++ class example that holds a string and an int
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/ExtUtils/ExtUtils-XSpp-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/ExtUtils-XSpp
+Source0:	https://cpan.metacpan.org/authors/id/M/MB/MBARBON/ExtUtils-XSpp-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Digest::MD5) >= 2.0.0
